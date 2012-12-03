@@ -23,6 +23,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ['torchffi.init.lua'] = 'init.lua',
+      ['torchffi.init'] = 'init.lua',
    }
 }
