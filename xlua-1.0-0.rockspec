@@ -3,13 +3,16 @@ version = "1.0-0"
 
 source = {
    url = "git://github.com/clementfarabet/lua---xlua",
-   tag = "1.0-0"
+   tag = "1.0-0",
+   dir = 'lua---xlua'
 }
 
 description = {
-   summary = "Some extensions to the basic Lua packages",
+   summary = "Extra Lua functions.",
    detailed = [[
-Some extensions to the basic Lua packages.
+Lua is pretty compact in terms of built-in functionalities:
+this package extends the table and string libraries, 
+and provide other general purpose tools (progress bar, ...).
    ]],
    homepage = "https://github.com/clementfarabet/lua---xlua",
    license = "BSD"
@@ -25,6 +28,6 @@ build = {
    modules = {
       ['xlua.init'] = 'init.lua',
       ['xlua.OptionParser'] = 'OptionParser.lua',
-      ['xlua.Profiler'] = 'Profiler.lua',
+      ['xlua.Profiler'] = 'Profiler.lua'
    }
 }
