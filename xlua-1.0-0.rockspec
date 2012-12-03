@@ -7,11 +7,9 @@ source = {
 }
 
 description = {
-   summary = "Extra Lua functions.",
+   summary = "Some extensions to the basic Lua packages",
    detailed = [[
-Lua is pretty compact in terms of built-in functionalities:
-this package extends the table and string libraries, 
-and provide other general purpose tools (progress bar, ...).
+Some extensions to the basic Lua packages.
    ]],
    homepage = "https://github.com/clementfarabet/lua---xlua",
    license = "BSD"
@@ -23,8 +21,10 @@ dependencies = {
 }
 
 build = {
-   type = "cmake",
-   variables = {
-      LUAROCKS_PREFIX = "$(PREFIX)"
+   type = "builtin",
+   modules = {
+      ['xlua.init'] = 'init.lua',
+      ['xlua.OptionParser'] = 'OptionParser.lua',
+      ['xlua.Profiler'] = 'Profiler.lua',
    }
 }
