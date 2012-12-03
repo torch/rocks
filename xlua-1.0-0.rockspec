@@ -2,7 +2,8 @@ package = "xlua"
 version = "1.0-0"
 
 source = {
-   url = "git://github.com/clementfarabet/lua---sys"
+   url = "git://github.com/clementfarabet/lua---xlua",
+   tag = "1.0-0"
 }
 
 description = {
@@ -18,6 +19,7 @@ and provide other general purpose tools (progress bar, ...).
 
 dependencies = {
    "torch >= 7.0",
+   "sys >= 1.0"
 }
 
 build = {
