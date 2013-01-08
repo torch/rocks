@@ -15,6 +15,13 @@ repository = {
       }
     }
   },
+  fs={
+    ['0.3-0']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
   gm={
     ['1.0-0']={
       {
@@ -92,6 +99,13 @@ repository = {
   },
   torchffi={
     ['1.0-0']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  underscore={
+    ['dev-1']={
       {
         arch='rockspec'
       }
