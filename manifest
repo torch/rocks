@@ -1,6 +1,13 @@
 commands = {}
 modules = {}
 repository = {
+  camera={
+    ['1.0-0']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
   csv={
     ['1.0-0']={
       {
@@ -42,6 +49,13 @@ repository = {
     }
   },
   imgraph={
+    ['1.0-0']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  ['inline-c']={
     ['1.0-0']={
       {
         arch='rockspec'
