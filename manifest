@@ -36,6 +36,13 @@ repository = {
       }
     }
   },
+  graphicsmagick={
+    ['1.0-0']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
   image={
     ['1.0-0']={
       {
