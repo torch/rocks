@@ -81,6 +81,11 @@ repository = {
       {
         arch='rockspec'
       }
+    },
+    ['0.1-1']={
+      {
+        arch='rockspec'
+      }
     }
   },
   optim={
