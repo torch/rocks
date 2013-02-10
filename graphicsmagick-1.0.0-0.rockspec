@@ -25,5 +25,7 @@ build = {
    type = "builtin",
    modules = {
       ['graphicsmagick.init'] = 'init.lua',
+      ['graphicsmagick.convert'] = 'convert.lua',
+      ['graphicsmagick.Image'] = 'Image.lua',
    }
 }
