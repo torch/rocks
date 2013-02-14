@@ -136,6 +136,11 @@ repository = {
       {
         arch='rockspec'
       }
+    },
+    ['7.0.3-0']={
+      {
+        arch='rockspec'
+      }
     }
   },
   torchffi={
