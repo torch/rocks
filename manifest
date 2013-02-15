@@ -15,6 +15,13 @@ repository = {
       }
     }
   },
+  fex={
+    ['0.1-0']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
   ffmpeg={
     ['1.0-0']={
       {
