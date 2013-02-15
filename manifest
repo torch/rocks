@@ -136,6 +136,11 @@ repository = {
       {
         arch='rockspec'
       }
+    },
+    ['7.0.3-0']={
+      {
+        arch='rockspec'
+      }
     }
   },
   torchffi={
@@ -147,6 +152,13 @@ repository = {
   },
   underscore={
     ['dev-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
+  unsup={
+    ['0.1-0']={
       {
         arch='rockspec'
       }
