@@ -121,6 +121,13 @@ repository = {
       }
     }
   },
+  restclient={
+    ['0.1-0']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
   sys={
     ['1.0-0']={
       {
