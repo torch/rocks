@@ -155,6 +155,11 @@ repository = {
       {
         arch='rockspec'
       }
+    },
+    ['7.1alpha-0']={
+      {
+        arch='rockspec'
+      }
     }
   },
   torchffi={
