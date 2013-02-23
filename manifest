@@ -169,6 +169,13 @@ repository = {
       }
     }
   },
+  trepl={
+    ['scm-1']={
+      {
+        arch='rockspec'
+      }
+    }
+  },
   underscore={
     ['dev-1']={
       {
