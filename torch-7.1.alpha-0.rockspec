@@ -3,7 +3,7 @@ version = "7.1.alpha-0"
 
 source = {
   url = "git://github.com/andresy/torch.git",
-  tag = 'luarocks'
+  branch = 'luarocks'
 }
 
 description = {
