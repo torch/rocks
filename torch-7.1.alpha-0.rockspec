@@ -1,5 +1,5 @@
 package = "torch"
-version = "7.1alpha-0"
+version = "7.1.alpha-0"
 
 source = {
   url = "git://github.com/andresy/torch.git",

@@ -1,207 +1,207 @@
 commands = {}
 modules = {}
 repository = {
-  camera={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   camera = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  csv={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   csv = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  fex={
-    ['0.1-0']={
-      {
-        arch='rockspec'
+   },
+   fex = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  ffmpeg={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   ffmpeg = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  fs={
-    ['0.3-0']={
-      {
-        arch='rockspec'
+   },
+   fs = {
+      ['0.3-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  gm={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   gm = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  graphicsmagick={
-    ['1.0.0-0']={
-      {
-        arch='rockspec'
+   },
+   graphicsmagick = {
+      ['1.0.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  image={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   image = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    },
-    ['1.0.1-0']={
-      {
-        arch='rockspec'
+   },
+   imgraph = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  imgraph={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   ['inline-c'] = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  ['inline-c']={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   json = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  json={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   mattorch = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  mattorch={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   nnx = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  nnx={
-    ['0.1-0']={
-      {
-        arch='rockspec'
+   },
+   optim = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    },
-    ['0.1-1']={
-      {
-        arch='rockspec'
+   },
+   parallel = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  optim={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   restclient = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    },
-    ['1.0.1-0']={
-      {
-        arch='rockspec'
+   },
+   sys = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  parallel={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   torch = {
+      ['7.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['7.0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['7.0.2-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['7.0.3-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['7.1.alpha-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  restclient={
-    ['0.1-0']={
-      {
-        arch='rockspec'
+   },
+   torchffi = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  sys={
-    ['1.0-0']={
-      {
-        arch='rockspec'
+   },
+   trepl = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    }
-  },
-  torch={
-    ['7.0-0']={
-      {
-        arch='rockspec'
+   },
+   underscore = {
+      ['dev-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    },
-    ['7.0.1-0']={
-      {
-        arch='rockspec'
+   },
+   unsup = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    },
-    ['7.0.2-0']={
-      {
-        arch='rockspec'
+   },
+   videograph = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    },
-    ['7.0.3-0']={
-      {
-        arch='rockspec'
+   },
+   xlua = {
+      ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
-    },
-    ['7.1alpha-0']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  torchffi={
-    ['1.0-0']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  trepl={
-    ['scm-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  underscore={
-    ['dev-1']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  unsup={
-    ['0.1-0']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  videograph={
-    ['1.0-0']={
-      {
-        arch='rockspec'
-      }
-    }
-  },
-  xlua={
-    ['1.0-0']={
-      {
-        arch='rockspec'
-      }
-    }
-  }
+   }
 }
