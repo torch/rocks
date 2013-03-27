@@ -3,7 +3,7 @@ version = "7.1.alpha-0"
 
 source = {
   url = "git://github.com/andresy/torch.git",
-  branch = 'luarocks'
+  tag = 'luarocks'
 }
 
 description = {
@@ -27,7 +27,6 @@ build = {
   type = "cmake",
   variables = {
     LUAROCKS_PREFIX="$(PREFIX)",
-    WITH_LUA_JIT="$(WITH_LUA_JIT)"
   }
 }
 
