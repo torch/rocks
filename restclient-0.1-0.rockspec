@@ -3,7 +3,7 @@ version = "0.1-0"
 
 source = {
    url = "git://github.com/clementfarabet/restclient",
-   tag = "master",
+   branch = "master",
 }
 
 description = {
@@ -25,5 +25,6 @@ build = {
    type = "builtin",
    modules = {
       ['restclient.init'] = 'init.lua',
+      ['restclient.base64'] = 'base64.lua',
    }
 }
