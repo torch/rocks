@@ -1,11 +1,8 @@
 Rocks for Torch
 ===============
 
-For now these rocks are hosted at 
-[http://data.neuflow.org/luarocks](http://data.neuflow.org/luarocks).
-
-To install any of these rocks, please add this URL to your ~/.luarocks config
-file.
+This is the official rock server for Torch. The executable torch-rocks uses this
+repo as its default rock repository.
 
 To contribute a rock, simply clone this repo, modify it (add your rocks to it)
-and make a pull request.
+and make a pull request!
