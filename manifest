@@ -51,7 +51,7 @@ repository = {
       }
    },
    graphicsmagick = {
-      ['1.0.0-0'] = {
+      ['1.scm-0'] = {
          {
             arch = "rockspec"
          }
