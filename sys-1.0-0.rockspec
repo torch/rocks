@@ -2,7 +2,7 @@ package = "sys"
 version = "1.0-0"
 
 source = {
-   url = "git://github.com/clementfarabet/lua---sys"
+   url = "git://github.com/torch/sys"
 }
 
 description = {
@@ -10,7 +10,7 @@ description = {
    detailed = [[
 Provides system functionalities for Torch.
    ]],
-   homepage = "https://github.com/clementfarabet/lua---sys",
+   homepage = "https://github.com/torch/sys",
    license = "BSD"
 }
 
