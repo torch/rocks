@@ -2,7 +2,7 @@ package = "image"
 version = "1.0-0"
 
 source = {
-   url = "git://github.com/clementfarabet/lua---image"
+   url = "git://github.com/torch/image"
 }
 
 description = {
@@ -11,7 +11,7 @@ description = {
 This package provides routines to load/save and manipulate images
 using Torch's Tensor data structure.
    ]],
-   homepage = "https://github.com/clementfarabet/lua---image",
+   homepage = "https://github.com/torch/image",
    license = "BSD"
 }
 

@@ -2,7 +2,7 @@ package = "torchffi"
 version = "1.1.alpha-0"
 
 source = {
-   url = "git://github.com/clementfarabet/torchffi",
+   url = "git://github.com/torch/ffi",
    tag = "master"
 }
 
@@ -12,7 +12,7 @@ description = {
 Enables FFI bindings for Torch (Tensor). It requires Torch to be built
 with LuaJIT.
    ]],
-   homepage = "https://github.com/clementfarabet/torchffi",
+   homepage = "https://github.com/torch/ffi",
    license = "BSD"
 }
 
