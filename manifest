@@ -1,6 +1,13 @@
 commands = {}
 modules = {}
 repository = {
+   audio = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    camera = {
       ['1.0-0'] = {
          {
