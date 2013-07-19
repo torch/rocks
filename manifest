@@ -121,6 +121,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    parallel = {
