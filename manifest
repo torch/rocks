@@ -142,6 +142,13 @@ repository = {
          }
       }
    },
+   python = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    restclient = {
       ['0.1-0'] = {
          {
