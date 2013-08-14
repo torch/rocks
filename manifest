@@ -1,6 +1,13 @@
 commands = {}
 modules = {}
 repository = {
+   async = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    audio = {
       ['0.1-0'] = {
          {
