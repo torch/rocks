@@ -3,7 +3,6 @@ version = "scm-1"
 
 source = {
    url = "git://github.com/clementfarabet/async",
-   branch = "master",
 }
 
 description = {
