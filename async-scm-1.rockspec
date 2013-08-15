@@ -3,6 +3,7 @@ version = "scm-1"
 
 source = {
    url = "git://github.com/clementfarabet/async",
+   dir = "async"
 }
 
 description = {
@@ -23,7 +24,7 @@ build = {
    build_command = "$(MAKE)",
    install_command = [[
 $(MAKE)
-cp couv.lua async.lua $(LUADIR)/
-cp couv_native.so lhttp_parser.so $(LIBDIR)/
+cp couv/couv.lua async.lua $(LUADIR)/
+cp couv/couv_native.so lhttp_parser/lhttp_parser.so $(LIBDIR)/
    ]]
 }
