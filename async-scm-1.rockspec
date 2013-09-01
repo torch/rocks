@@ -23,8 +23,7 @@ build = {
    type = "command",
    build_command = "$(MAKE)",
    install_command = [[
-$(MAKE)
-cp couv/couv.lua async.lua $(LUADIR)/
-cp couv/couv_native.so lhttp_parser/lhttp_parser.so $(LIBDIR)/
+cp -r async $(LUADIR)/
+cp luv.so lhttp_parser.so $(LIBDIR)/
    ]]
 }
