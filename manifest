@@ -57,6 +57,13 @@ repository = {
          }
       }
    },
+   ['gfx.js'] = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    gm = {
       ['1.0-0'] = {
          {
@@ -104,6 +111,13 @@ repository = {
    },
    json = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   manifold = {
+      ['scm-0'] = {
          {
             arch = "rockspec"
          }
