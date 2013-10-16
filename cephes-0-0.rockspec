@@ -8,7 +8,7 @@ source = {
 
 description = {
   summary = "Cephes mathematical functions library, wrapped for Torch",
-  homepage = "http://www.netlib.org/cephes/"
+  homepage = "https://github.com/jucor/torch-cephes"
 }
 
 dependencies = { 'torch >= 7.0'}

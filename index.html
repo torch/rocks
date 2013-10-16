@@ -48,6 +48,24 @@ Lua modules available from this location for use with <a href="http://www.luaroc
 </p>
 <table class="main">
 <td class="package">
+<p><a name="async"></a><b>async</b> - An async framework for Torch (based on LibUV)<br/>
+</p><blockquote><p>Async framework for Torch, based on LibUV. <br/>
+
+<font size="-1"><a href="git://github.com/clementfarabet/async">latest sources</a> | <a href="https://github.com/clementfarabet/async" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="async-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="audio"></a><b>audio</b> - Audio library for Torch-7<br/>
+</p><blockquote><p> Support audio I/O (Load files) Common audio operations (Short-time Fourier transforms, Spectrograms) <br/>
+<p><b>External dependencies:</b> libfftw3,&nbsp;libsox</p>
+<font size="-1"><a href="git://github.com/soumith/lua---audio">latest sources</a> | <a href="https://github.com/soumith/lua---audio" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+0.1-0:&nbsp;<a href="audio-0.1-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
 <p><a name="camera"></a><b>camera</b> - A simple wrapper package to give torch access to a webcam<br/>
 </p><blockquote><p>Uses OpenCV on MacOS and video4linux2 on Linux to proved the low level access to the camera hardware. <br/>
 
@@ -60,7 +78,11 @@ Lua modules available from this location for use with <a href="http://www.luaroc
 <p><a name="cephes"></a><b>cephes</b> - Cephes mathematical functions library, wrapped for Torch<br/>
 </p><blockquote><p><br/>
 
+<<<<<<< HEAD
 <font size="-1"><a href="git://github.com/jucor/torch-cephes.git">latest sources</a> | <a href="http://www.netlib.org/cephes/" target="_blank">project homepage</a> | License: N/A</font></p>
+=======
+<font size="-1"><a href="git://github.com/jucor/torch-cephes.git">latest sources</a> | <a href="https://github.com/jucor/torch-cephes" target="_blank">project homepage</a> | License: N/A</font></p>
+>>>>>>> upstream/master
 </blockquote></a></td>
 <td class="version">
 0-0:&nbsp;<a href="cephes-0-0.rockspec">rockspec</a><br/></td></tr>
@@ -111,13 +133,22 @@ Lua modules available from this location for use with <a href="http://www.luaroc
 0.3-0:&nbsp;<a href="fs-0.3-0.rockspec">rockspec</a><br/></td></tr>
 <tr><td colspan="2" class="spacer"></td></tr>
 <td class="package">
+<p><a name="gfx.js"></a><b>gfx.js</b> - A graphics backend for the browser, with a Torch7 client.<br/>
+</p><blockquote><p>A graphics backend for the browser, with a Torch7 client. <br/>
+
+<font size="-1"><a href="git://github.com/clementfarabet/gfx.js">latest sources</a> | <a href="https://github.com/clementfarabet/gfx.js" target="_blank">project homepage</a> | License: MIT</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-0:&nbsp;<a href="gfx.js-scm-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
 <p><a name="gm"></a><b>gm</b> - A graphical model library for Torch<br/>
 </p><blockquote><p>This package provides routines to create graphical models, and perform common operations on them: decoding, inference, and parameter estimation. <br/>
 
-<font size="-1"><a href="git://github.com/clementfarabet/lua---gm">latest sources</a> | <a href="https://github.com/clementfarabet/lua---gm" target="_blank">project homepage</a> | License: BSD</font></p>
+<font size="-1"><a href="git://github.com/clementfarabet/gm">latest sources</a> | <a href="https://github.com/clementfarabet/gm" target="_blank">project homepage</a> | License: BSD</font></p>
 </blockquote></a></td>
 <td class="version">
-1.0-0:&nbsp;<a href="gm-1.0-0.rockspec">rockspec</a><br/></td></tr>
+scm-1:&nbsp;<a href="gm-scm-1.rockspec">rockspec</a><br/></td></tr>
 <tr><td colspan="2" class="spacer"></td></tr>
 <td class="package">
 <p><a name="graphicsmagick"></a><b>graphicsmagick</b> - A wrapper to GraphicsMagick (binary).<br/>
@@ -165,6 +196,15 @@ Lua modules available from this location for use with <a href="http://www.luaroc
 1.0-0:&nbsp;<a href="json-1.0-0.rockspec">rockspec</a><br/></td></tr>
 <tr><td colspan="2" class="spacer"></td></tr>
 <td class="package">
+<p><a name="manifold"></a><b>manifold</b> - A package to manipulate manifolds<br/>
+</p><blockquote><p>A package to manipulate manifolds. <br/>
+
+<font size="-1"><a href="git://github.com/clementfarabet/manifold">latest sources</a> | <a href="https://github.com/clementfarabet/manifold" target="_blank">project homepage</a> | License: MIT</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-0:&nbsp;<a href="manifold-scm-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
 <p><a name="mattorch"></a><b>mattorch</b> - An interface between Matlab and Torch<br/>
 </p><blockquote><p>A two-way interface between Matlab and Torch. Supports all Matrix types in Matlab, as long as they have an equivalent in Torch. <br/>
 
@@ -189,7 +229,11 @@ Lua modules available from this location for use with <a href="http://www.luaroc
 <font size="-1"><a href="git://github.com/torch/optim">latest sources</a> | <a href="https://github.com/torch/optim" target="_blank">project homepage</a> | License: BSD</font></p>
 </blockquote></a></td>
 <td class="version">
+<<<<<<< HEAD
 1.0.3-1:&nbsp;<a href="optim-1.0.3-1.rockspec">rockspec</a><br/>1.0.3-0:&nbsp;<a href="optim-1.0.3-0.rockspec">rockspec</a><br/>1.0.2-0:&nbsp;<a href="optim-1.0.2-0.rockspec">rockspec</a><br/>1.0.1-0:&nbsp;<a href="optim-1.0.1-0.rockspec">rockspec</a><br/>1.0-0:&nbsp;<a href="optim-1.0-0.rockspec">rockspec</a><br/></td></tr>
+=======
+1.0.3-1:&nbsp;<a href="optim-1.0.3-1.rockspec">rockspec</a><br/>1.0.3-0:&nbsp;<a href="optim-1.0.3-0.rockspec">rockspec</a><br/></td></tr>
+>>>>>>> upstream/master
 <tr><td colspan="2" class="spacer"></td></tr>
 <td class="package">
 <p><a name="parallel"></a><b>parallel</b> - A package to easily fork processes, for Torch<br/>
@@ -199,6 +243,24 @@ Lua modules available from this location for use with <a href="http://www.luaroc
 </blockquote></a></td>
 <td class="version">
 1.0-0:&nbsp;<a href="parallel-1.0-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="persist"></a><b>persist</b> - A persisting table, built on Redis.<br/>
+</p><blockquote><p>A persisting table, built on Redis. <br/>
+
+<font size="-1"><a href="git://github.com/clementfarabet/persist">latest sources</a> | <a href="https://github.com/clementfarabet/persist" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-0:&nbsp;<a href="persist-scm-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="python"></a><b>python</b> - A wrapper to Python<br/>
+</p><blockquote><p>Load a Python env into Lua. <br/>
+
+<font size="-1"><a href="git://github.com/clementfarabet/lua---python">latest sources</a> | <a href="https://github.com/clementfarabet/lua---python" target="_blank">project homepage</a> | License: GPL</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-0:&nbsp;<a href="python-scm-0.rockspec">rockspec</a><br/></td></tr>
 <tr><td colspan="2" class="spacer"></td></tr>
 <td class="package">
 <p><a name="restclient"></a><b>restclient</b> - A REST Client.<br/>
@@ -216,7 +278,7 @@ Lua modules available from this location for use with <a href="http://www.luaroc
 <font size="-1"><a href="git://github.com/torch/sys">latest sources</a> | <a href="https://github.com/torch/sys" target="_blank">project homepage</a> | License: BSD</font></p>
 </blockquote></a></td>
 <td class="version">
-1.0-0:&nbsp;<a href="sys-1.0-0.rockspec">rockspec</a><br/></td></tr>
+1.1-0:&nbsp;<a href="sys-1.1-0.rockspec">rockspec</a><br/>1.0-0:&nbsp;<a href="sys-1.0-0.rockspec">rockspec</a><br/></td></tr>
 <tr><td colspan="2" class="spacer"></td></tr>
 <td class="package">
 <p><a name="torch"></a><b>torch</b> - Torch<br/>
@@ -234,7 +296,7 @@ Lua modules available from this location for use with <a href="http://www.luaroc
 <font size="-1"><a href="git://github.com/torch/ffi">latest sources</a> | <a href="https://github.com/torch/ffi" target="_blank">project homepage</a> | License: BSD</font></p>
 </blockquote></a></td>
 <td class="version">
-1.1.alpha-0:&nbsp;<a href="torchffi-1.1.alpha-0.rockspec">rockspec</a><br/>1.0-0:&nbsp;<a href="torchffi-1.0-0.rockspec">rockspec</a><br/></td></tr>
+1.1.alpha-0:&nbsp;<a href="torchffi-1.1.alpha-0.rockspec">rockspec</a><br/></td></tr>
 <tr><td colspan="2" class="spacer"></td></tr>
 <td class="package">
 <p><a name="trepl"></a><b>trepl</b> - An embedabble, Lua-only REPL for Torch.<br/>

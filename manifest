@@ -1,6 +1,20 @@
 commands = {}
 modules = {}
 repository = {
+   async = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   audio = {
+      ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    camera = {
       ['1.0-0'] = {
          {
@@ -50,8 +64,15 @@ repository = {
          }
       }
    },
+   ['gfx.js'] = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    gm = {
-      ['1.0-0'] = {
+      ['scm-1'] = {
          {
             arch = "rockspec"
          }
@@ -102,6 +123,13 @@ repository = {
          }
       }
    },
+   manifold = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    mattorch = {
       ['1.0-0'] = {
          {
@@ -117,21 +145,6 @@ repository = {
       }
    },
    optim = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['1.0.1-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
-      ['1.0.2-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
       ['1.0.3-0'] = {
          {
             arch = "rockspec"
@@ -150,6 +163,25 @@ repository = {
          }
       }
    },
+   persist = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.0.3-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   python = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    restclient = {
       ['0.1-0'] = {
          {
@@ -159,6 +191,11 @@ repository = {
    },
    sys = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-0'] = {
          {
             arch = "rockspec"
          }
@@ -172,11 +209,6 @@ repository = {
       }
    },
    torchffi = {
-      ['1.0-0'] = {
-         {
-            arch = "rockspec"
-         }
-      },
       ['1.1.alpha-0'] = {
          {
             arch = "rockspec"

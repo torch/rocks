@@ -1,23 +1,25 @@
-package = "optim"
-version = "1.0.1-0"
+package = "gm"
+version = "scm-1"
 
 source = {
-   url = "git://github.com/koraykv/optim",
-   tag = "1.0.1-0"
+   url = "git://github.com/clementfarabet/gm",
+   branch = "master"
 }
 
 description = {
-   summary = "An optimization library for Torch.",
+   summary = "A graphical model library for Torch",
    detailed = [[
-This package contains several optimization routines for Torch.   
-  ]],
-   homepage = "https://github.com/koraykv/optim",
+This package provides routines to create graphical models,
+and perform common operations on them: decoding, inference, and parameter estimation.
+   ]],
+   homepage = "https://github.com/clementfarabet/gm",
    license = "BSD"
 }
 
 dependencies = {
    "torch >= 7.0",
    "sys >= 1.0",
+   "xlua >= 1.0"
 }
 
 build = {

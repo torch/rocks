@@ -1,19 +1,17 @@
-package = "torchffi"
-version = "1.0-0"
+package = "python"
+version = "scm-0"
 
 source = {
-   url = "git://github.com/clementfarabet/torchffi",
-   tag = "1.0-0"
+   url = "git://github.com/clementfarabet/lua---python",
 }
 
 description = {
-   summary = "Enables FFI bindings for Torch",
+   summary = "A wrapper to Python",
    detailed = [[
-Enables FFI bindings for Torch (Tensor). It requires Torch to be built
-with LuaJIT.
+Load a Python env into Lua.
    ]],
-   homepage = "https://github.com/clementfarabet/torchffi",
-   license = "BSD"
+   homepage = "https://github.com/clementfarabet/lua---python",
+   license = "GPL"
 }
 
 dependencies = {

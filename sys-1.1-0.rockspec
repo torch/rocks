@@ -1,9 +1,9 @@
 package = "sys"
-version = "1.0-0"
+version = "1.1-0"
 
 source = {
    url = "git://github.com/torch/sys",
-   tag = "1.0-0"
+   tag = "1.1-0"
 }
 
 description = {
