@@ -154,6 +154,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.0.4-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    parallel = {
