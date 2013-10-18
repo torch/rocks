@@ -236,6 +236,13 @@ repository = {
          }
       }
    },
+   utf8 = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    videograph = {
       ['1.0-0'] = {
          {
