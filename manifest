@@ -36,8 +36,36 @@ repository = {
          }
       }
    },
+   cunn = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    curl = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   cutorch = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   cwrap = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   dok = {
+      ['scm-1'] = {
          {
             arch = "rockspec"
          }
@@ -72,6 +100,13 @@ repository = {
       }
    },
    gm = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   gnuplot = {
       ['scm-1'] = {
          {
             arch = "rockspec"
@@ -137,6 +172,13 @@ repository = {
          }
       }
    },
+   nn = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    nnx = {
       ['0.1-1'] = {
          {
@@ -168,6 +210,13 @@ repository = {
          }
       }
    },
+   paths = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    persist = {
       ['scm-0'] = {
          {
@@ -182,8 +231,22 @@ repository = {
          }
       }
    },
+   qttorch = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    restclient = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   sundown = {
+      ['scm-1'] = {
          {
             arch = "rockspec"
          }
@@ -203,6 +266,11 @@ repository = {
    },
    torch = {
       ['7.scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['scm-1'] = {
          {
             arch = "rockspec"
          }
