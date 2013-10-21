@@ -245,6 +245,13 @@ repository = {
          }
       }
    },
+   sdl2 = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    sundown = {
       ['scm-1'] = {
          {
@@ -259,6 +266,13 @@ repository = {
          }
       },
       ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   threads = {
+      ['scm-1'] = {
          {
             arch = "rockspec"
          }
