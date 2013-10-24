@@ -1,8 +1,15 @@
-Rocks for Torch
-===============
+Rocks
+=====
 
-This is the official rock server for Torch. The executable torch-rocks uses this
-repo as its default rock repository.
+This is the official rock server for the Torch ecosystem. Note that all
+these rocks are installable with [Luarocks](http://luarocks.org/), but
+most of them assume [LuaJIT](http://luajit.org/).
 
-To contribute a rock, simply clone this repo, modify it (add your rocks to it)
-and make a pull request!
+Please refer to [the Torch portal](http://torch.github.io/) for more info
+on Torch.
+
+If you want to contribute and share some code, just create a rock for it, and
+make a pull request to this repo. When commiting your rocks, you should also
+run the script [make-manifest.lua](https://github.com/torch/rocks/blob/master/make-manifest.lua),
+provided in this repo, to update the manifest and the html summary. The summary
+is viewable at all times [here](http://torch.github.io/rocks).
