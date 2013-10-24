@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-
-git pull
-luarocks-admin make_manifest .
