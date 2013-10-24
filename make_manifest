@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 
 git pull
-torch-rocks-admin make_manifest .
-
+luarocks-admin make_manifest .
