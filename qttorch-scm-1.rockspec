@@ -15,6 +15,7 @@ description = {
 
 dependencies = {
    "torch >= 7.0",
+   "qtlua >= 1.0"
 }
 
 build = {
