@@ -252,6 +252,13 @@ repository = {
          }
       }
    },
+   randomkit = {
+      ['0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['redis-async'] = {
       ['scm-0'] = {
          {
