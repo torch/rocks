@@ -24,5 +24,7 @@ build = {
    type = "builtin",
    modules = {
       ['redis-queue.init'] = './init.lua',
+      ['redis-queue.monitor'] = './monitor.lua',
+      ['redis-queue.config'] = './config.lua',
    }
 }
