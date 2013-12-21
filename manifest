@@ -99,6 +99,13 @@ repository = {
          }
       }
    },
+   fftw3 = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    fs = {
       ['0.3-0'] = {
          {
