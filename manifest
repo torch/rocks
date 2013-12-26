@@ -1,6 +1,13 @@
 commands = {}
 modules = {}
 repository = {
+   argcheck = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    async = {
       ['scm-1'] = {
          {
