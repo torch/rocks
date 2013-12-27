@@ -308,6 +308,13 @@ repository = {
          }
       }
    },
+   signal = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    sundown = {
       ['scm-1'] = {
          {
