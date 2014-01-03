@@ -29,6 +29,13 @@ repository = {
          }
       }
    },
+   cairo = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    camera = {
       ['1.0-0'] = {
          {
@@ -38,6 +45,13 @@ repository = {
    },
    cephes = {
       ['0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   class = {
+      ['scm-1'] = {
          {
             arch = "rockspec"
          }
