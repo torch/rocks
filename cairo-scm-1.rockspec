@@ -16,19 +16,29 @@ description = {
 
 dependencies = {
    "lua >= 5.1",
+   "argcheck >= 1",
+   "class >= 1"
 }
 
 build = {
    type = "builtin",
    modules = {
+      ["cairo.env"] = "env.lua",
       ["cairo.init"] = "init.lua",
+      ["cairo.enums"] = "enums.lua",
+      ["cairo.matrix"] = "matrix.lua",
+      ["cairo.utils"] = "utils.lua",
       ["cairo.cdefs"] = "cdefs.lua",
-      ["cairo.shorthand"] = "shorthand.lua",
-      ["cairo.path"] = "path.lua",
-      ["cairo.cairo"] = "cairo.lua",
+      ["cairo.context"] = "context.lua",
       ["cairo.surface"] = "surface.lua",
+      ["cairo.imagesurface"] = "imagesurface.lua",
+      ["cairo.pngsurface"] = "pngsurface.lua",
       ["cairo.pattern"] = "pattern.lua",
       ["cairo.region"] = "region.lua",
-      ["cairo.matrix"] = "matrix.lua"
-   }      
+      ["cairo.fontoptions"] = "fontoptions.lua",
+      ["cairo.path"] = "path.lua",
+      ["cairo.fontface"] = "fontface.lua",
+      ["cairo.svgsurface"] = "svgsurface.lua",
+      ["cairo.pdfsurface"] = "pdfsurface.lua"
+   }
 }
