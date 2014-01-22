@@ -26,5 +26,10 @@ build = {
       ['redis-queue.init'] = './init.lua',
       ['redis-queue.monitor'] = './monitor.lua',
       ['redis-queue.config'] = './config.lua',
+      ['redis-queue.regqueue'] = './queues/regqueue.lua',
+      ['redis-queue.lbqueue'] = './queues/lbqueue.lua',
+      ['redis-queue.delqueue'] = './queues/delqueue.lua',
+      ['redis-queue.common'] = './common.lua',
+      ['redis-queue.queuefactory'] = './queuefactory.lua',
    }
 }
