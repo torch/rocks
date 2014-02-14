@@ -4,7 +4,7 @@ require('pl.text').format_operator()
 
 os.execute[[
 git pull
-luarocks-admin make_manifest .
+/Users/ronan/usr72/bin/luarocks-admin make_manifest .
 ]]
 
 content = io.open('index.html'):read('*all')
