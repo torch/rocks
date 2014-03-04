@@ -8,8 +8,9 @@ source = {
 description = {
    summary = "Advanced function argument checker",
    detailed = [[
-   Argcheck allows you to insure arguments given to a function are correct.
-   Checks are compiled beforehand, which guarantees little overheads.
+Argcheck generates specific code for checking arguments of a function. This
+allows complex argument checking (possibly with optional values), with almost
+no overhead.
    ]],
    homepage = "https://github.com/torch/argcheck",
    license = "BSD"
@@ -23,6 +24,6 @@ build = {
    type = "builtin",
    modules = {
       ["argcheck.init"] = "init.lua",
-      ["argcheck.argtypes"] = "argtypes.lua"
+      ["argcheck.env"]  = "env.lua"
    }      
 }
