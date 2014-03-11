@@ -9,7 +9,8 @@ source = {
 
 description = {
 	summary = 'Torch test module',
-	homepage = 'https://github.com/akfidjeland/torch-totem'
+	homepage = 'https://github.com/akfidjeland/torch-totem',
+	license = 'BSD'
 }
 
 dependencies = { 'torch >= 7.0', 'sys', 'penlight', 'nn'}
