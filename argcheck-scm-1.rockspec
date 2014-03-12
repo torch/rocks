@@ -24,6 +24,7 @@ build = {
    type = "builtin",
    modules = {
       ["argcheck.init"] = "init.lua",
-      ["argcheck.env"]  = "env.lua"
+      ["argcheck.env"]  = "env.lua",
+      ["argcheck.utils"]  = "utils.lua"
    }      
 }
