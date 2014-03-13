@@ -25,6 +25,8 @@ build = {
    modules = {
       ["argcheck.init"] = "init.lua",
       ["argcheck.env"]  = "env.lua",
-      ["argcheck.utils"]  = "utils.lua"
+      ["argcheck.utils"]  = "utils.lua",
+      ["argcheck.doc"]  = "doc.lua",
+      ["argcheck.dump"]  = "dump.lua"
    }      
 }
