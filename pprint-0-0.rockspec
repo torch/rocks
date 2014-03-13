@@ -15,6 +15,6 @@ dependencies = {'torch >= 7.0', 'util'}
 build = {
     type = 'builtin',
     modules = {
-        ['pprint.init'] = 'pprint/init.lua'
+        ['pprint.init'] = 'init.lua'
     }
 }
