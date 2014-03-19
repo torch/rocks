@@ -19,6 +19,11 @@ dependencies = {
 
 build = {
    type = "builtin",
+   install = {
+      bin = {
+         mdcat = "mdcat.lua"
+      }
+   },
    modules = {
       ["sundown.env"] = "env.lua",
       ["sundown.init"] = "init.lua",
