@@ -20,9 +20,12 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
+      ["sundown.env"] = "env.lua",
       ["sundown.init"] = "init.lua",
       ["sundown.sdcdefs"] = "sdcdefs.lua",
       ["sundown.htmlcdefs"] = "htmlcdefs.lua",
+      ["sundown.html"] = "html.lua",
+      ["sundown.ascii"] = "ascii.lua",
       libsundown = {
          sources = {
             "src/autolink.c",
