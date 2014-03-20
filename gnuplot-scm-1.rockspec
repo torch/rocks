@@ -30,7 +30,7 @@ build = {
    install = {
       lua = {
       -- this is ugly (but this is luarocks)
-         ["gnuplot.doc.README"] = "doc/README.md",
+         ["gnuplot.README"] = "README.md",
          ["gnuplot.doc.plot_filled"] = "doc/plot_filled.png",
          ["gnuplot.doc.plot_hist"] = "doc/plot_hist.png",
          ["gnuplot.doc.plot_imagesc"] = "doc/plot_imagesc.png",

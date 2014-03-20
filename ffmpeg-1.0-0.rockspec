@@ -3,7 +3,6 @@ version = "1.0-0"
 
 source = {
    url = "git://github.com/clementfarabet/lua---ffmpeg",
-   tag = "1.0-0"
 }
 
 description = {

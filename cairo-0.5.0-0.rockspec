@@ -1,8 +1,9 @@
 package = "cairo"
-version = "scm-1"
+version = "0.5.0-0"
 
 source = {
-   url = "git://github.com/torch/cairo-ffi.git"
+   url = "git://github.com/torch/cairo-ffi.git",
+   tag = "0.5.0-0"
 }
 
 description = {
@@ -17,7 +18,7 @@ description = {
 dependencies = {
    "lua >= 5.1",
    "argcheck ~> 0.5",
-   "class >= 1"
+   "class ~> 0.5"
 }
 
 build = {
