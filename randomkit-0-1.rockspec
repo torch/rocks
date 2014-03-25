@@ -1,9 +1,9 @@
 package = 'randomkit'
-version = '0-0'
+version = '0-1'
 
 source = {
    url = 'git://github.com/jucor/torch-randomkit.git',
-   branch = 'v0.0'
+   branch = 'v0.1'
 }
 
 description = {
