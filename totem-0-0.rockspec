@@ -13,7 +13,7 @@ description = {
 	license = 'BSD'
 }
 
-dependencies = { 'torch >= 7.0', 'sys', 'penlight', 'nn'}
+dependencies = { 'torch >= 7.0', 'sys', 'penlight', 'nn', 'nngraph'}
 build = {
 	type = 'builtin',
 	modules = {
