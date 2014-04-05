@@ -243,6 +243,13 @@ repository = {
          }
       }
    },
+   luaforever = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    manifold = {
       ['scm-0'] = {
          {
