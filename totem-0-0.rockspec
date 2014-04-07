@@ -26,7 +26,8 @@ build = {
 	},
 	install = {
 		bin = {
-			'scripts/totem-init'
+			'scripts/totem-init',
+			'scripts/totem-run'
 		}
 	}
 }
