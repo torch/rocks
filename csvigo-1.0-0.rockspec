@@ -1,4 +1,4 @@
-package = "csv"
+package = "csvigo"
 version = "1.0-0"
 
 source = {
@@ -22,7 +22,7 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ['csv.init'] = 'init.lua',
-      ['csv.File'] = 'File.lua'
+      ['csvigo.init'] = 'init.lua',
+      ['csvigo.File'] = 'File.lua'
    }
 }
