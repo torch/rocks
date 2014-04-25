@@ -1,4 +1,4 @@
-package = "signal"
+Bpackage = "signal"
 version = "scm-1"
 
 source = {
@@ -17,8 +17,7 @@ description = {
 dependencies = {
    "lua >= 5.1",
    "torch >= 7.0",
-   "fftw3 >= 1.0",
-   "torchffi >= 1.0"
+   "fftw3 >= 1.0"
 }
 
 build = {
