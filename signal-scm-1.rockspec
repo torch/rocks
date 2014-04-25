@@ -1,4 +1,4 @@
-Bpackage = "signal"
+package = "signal"
 version = "scm-1"
 
 source = {
