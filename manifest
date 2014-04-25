@@ -424,6 +424,13 @@ repository = {
          }
       }
    },
+   thmap = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    threads = {
       ['scm-1'] = {
          {
