@@ -1,9 +1,9 @@
 package = "csvigo"
-version = "1.0-0"
+version = "scm-1"
 
 source = {
    url = "git://github.com/clementfarabet/lua---csv",
-   tag = "1.0-0"
+   tag = "master"
 }
 
 description = {
