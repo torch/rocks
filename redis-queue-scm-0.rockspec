@@ -30,6 +30,7 @@ build = {
       ['redis-queue.lbqueue'] = './queues/lbqueue.lua',
       ['redis-queue.delqueue'] = './queues/delqueue.lua',
       ['redis-queue.mrqueue'] = './queues/mrqueue.lua',
+      ['redis-queue.mrbqueue'] = './queues/mrbqueue.lua',
       ['redis-queue.common'] = './common.lua',
       ['redis-queue.queuefactory'] = './queuefactory.lua',
    }
