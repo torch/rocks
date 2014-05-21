@@ -271,6 +271,13 @@ repository = {
          }
       }
    },
+   ncurses = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    nn = {
       ['scm-1'] = {
          {
