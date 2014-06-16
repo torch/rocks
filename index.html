@@ -2,50 +2,24 @@
 <html>
 <head>
 <title>Available rocks</title>
-<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
-<style>
-body {
-   background-color: white;
-   font-family: "bitstream vera sans", "verdana", "sans";
-   font-size: 14px;
-}
-a {
-   color: #0000c0;
-   text-decoration: none;
-}
-a:hover {
-   text-decoration: underline;
-}
-td.main {
-   border-style: none;
-}
-blockquote {
-   font-size: 12px;
-}
-td.package {
-   background-color: #f0f0f0;
-   vertical-align: top;
-}
-td.spacer {
-   height: 5px;
-}
-td.version {
-   background-color: #d0d0d0;
-   vertical-align: top;
-   text-align: left;
-   padding: 5px;
-   width: 100px;
-}
-p.manifest {
-   font-size: 8px;
-}
-</style>
+<meta charset='utf-8' />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta name="description" content="Torch7 : supported packages." />
+<link rel="stylesheet" type="text/css" media="screen" href="http://torch.github.io/stylesheets/stylesheet.css">
 </head>
 <body>
-<h1>Available rocks</h1>
-<p>
-Lua modules available from this location for use with <a href="http://www.luarocks.org">LuaRocks</a>:
-</p>
+    
+<div id="header_wrap" class="outer">
+    <header class="inner">
+      <a id="forkme_banner" href="https://github.com/torch/rocks">Add your own rocks here!</a>
+      <h1 id="project_title">Rocks</h1>
+      <h2 id="project_tagline">Hosted @ github.com/torch/rocks</h2>
+    </header>
+</div>
+    
+<div id="main_content_wrap" class="outer">
+<section id="main_content" class="inner">
+
 <table class="main">
 <td class="package">
 <p><a name="argcheck"></a><b>argcheck</b> - Advanced function argument checker<br/>
@@ -578,3 +552,117 @@ scm-1:&nbsp;<a href="sundown-scm-1.rockspec">rockspec</a><br/></td></tr>
 <td class="version">
 1.1-0:&nbsp;<a href="sys-1.1-0.rockspec">rockspec</a><br/>1.0-0:&nbsp;<a href="sys-1.0-0.rockspec">rockspec</a><br/></td></tr>
 <tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="thmap"></a><b>thmap</b> - Map jobs onto th nodes.<br/>
+</p><blockquote><p>Map jobs onto th nodes. <br/>
+
+<font size="-1"><a href="git://github.com/clementfarabet/thmap">latest sources</a> | <a href="https://github.com/clementfarabet/thmap" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="thmap-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="threads"></a><b>threads</b> - A FFI threading system<br/>
+</p><blockquote><p>A LuaJIT-based theading system. Relies on SDL2 threads for portability. Transparent exchange of data between threads is allowed thanks to torch serialization. <br/>
+
+<font size="-1"><a href="git://github.com/torch/threads-ffi.git">latest sources</a> | <a href="https://github.com/torch/threads-ffi" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="threads-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="torch"></a><b>torch</b> - Torch7<br/>
+</p><blockquote><p> <br/>
+
+<font size="-1"><a href="git://github.com/torch/torch7.git">latest sources</a> | <a href="https://github.com/torch/torch7" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="torch-scm-1.rockspec">rockspec</a><br/>7.scm-0:&nbsp;<a href="torch-7.scm-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="torchffi"></a><b>torchffi</b> - Enables FFI bindings for Torch<br/>
+</p><blockquote><p>Enables FFI bindings for Torch (Tensor). It requires Torch to be built with LuaJIT. <br/>
+
+<font size="-1"><a href="git://github.com/torch/ffi">latest sources</a> | <a href="https://github.com/torch/ffi" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+1.1.alpha-0:&nbsp;<a href="torchffi-1.1.alpha-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="totem"></a><b>totem</b> - Torch test module<br/>
+</p><blockquote><p><br/>
+
+<font size="-1"><a href="git://github.com/akfidjeland/torch-totem.git">latest sources</a> | <a href="https://github.com/akfidjeland/torch-totem" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+0-0:&nbsp;<a href="totem-0-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="trepl"></a><b>trepl</b> - An embedabble, Lua-only REPL for Torch.<br/>
+</p><blockquote><p>An embedabble, Lua-only REPL for Torch. <br/>
+
+<font size="-1"><a href="git://github.com/torch/trepl">latest sources</a> | <a href="https://github.com/torch/trepl" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="trepl-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="underscore"></a><b>underscore</b> - Underscore is a utility-belt library for Lua<br/>
+</p><blockquote><p> underscore-lua is a utility-belt library for Lua that provides a lot of the functional programming support that you would expect in or Ruby's Enumerable. <br/>
+
+<font size="-1"><a href="git://github.com/clementfarabet/underscore-lua.git">latest sources</a> | <a href="http://jtarchie.github.com/underscore-lua/" target="_blank">project homepage</a> | License: MIT</font></p>
+</blockquote></a></td>
+<td class="version">
+dev-1:&nbsp;<a href="underscore-dev-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="unsup"></a><b>unsup</b> - A package for unsupervised learning in Torch<br/>
+</p><blockquote><p>Provides modules that are compatible with nn (LinearPsd, ConvPsd, AutoEncoder, ...), and self-contained algorithms (k-means, PCA). <br/>
+
+<font size="-1"><a href="git://github.com/koraykv/unsup">latest sources</a> | <a href="https://github.com/koraykv/unsup" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+0.1-0:&nbsp;<a href="unsup-0.1-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="utf8"></a><b>utf8</b> - Basic UTF-8 support.<br/>
+</p><blockquote><p>Basic UTF-8 support. <br/>
+
+<font size="-1"><a href="git://github.com/clementfarabet/lua-utf8">latest sources</a> | <a href="https://github.com/clementfarabet/lua-utf8" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+scm-1:&nbsp;<a href="utf8-scm-1.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="util"></a><b>util</b> - Random utilities for Lua and Torch.<br/>
+</p><blockquote><p><br/>
+
+<font size="-1"><a href="git://github.com/akfidjeland/lua-util">latest sources</a> | <a href="https://github.com/akfidjeland/lua-util" target="_blank">project homepage</a> | License: N/A</font></p>
+</blockquote></a></td>
+<td class="version">
+0-0:&nbsp;<a href="util-0-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="videograph"></a><b>videograph</b> - A video/graph library for Torch<br/>
+</p><blockquote><p>This package provides routines to construct graphs on videos, segment them, build trees out of them, and convert them back to videos. <br/>
+
+<font size="-1"><a href="git://github.com/clementfarabet/videograph">latest sources</a> | <a href="https://github.com/clementfarabet/videograph" target="_blank">project homepage</a> | License: GPL</font></p>
+</blockquote></a></td>
+<td class="version">
+1.0-0:&nbsp;<a href="videograph-1.0-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+<td class="package">
+<p><a name="xlua"></a><b>xlua</b> - Extra Lua functions.<br/>
+</p><blockquote><p>Lua is pretty compact in terms of built-in functionalities: this package extends the table and string libraries, and provide other general purpose tools (progress bar, ...). <br/>
+
+<font size="-1"><a href="git://github.com/torch/xlua">latest sources</a> | <a href="https://github.com/torch/xlua" target="_blank">project homepage</a> | License: BSD</font></p>
+</blockquote></a></td>
+<td class="version">
+1.0-0:&nbsp;<a href="xlua-1.0-0.rockspec">rockspec</a><br/></td></tr>
+<tr><td colspan="2" class="spacer"></td></tr>
+</table>
+
+</section>
+</div>
+</body>
+</html>
