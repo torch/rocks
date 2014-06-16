@@ -391,8 +391,22 @@ repository = {
          }
       }
    },
+   ['redis-status'] = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    restclient = {
       ['0.1-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['rq-monitor'] = {
+      ['scm-0'] = {
          {
             arch = "rockspec"
          }

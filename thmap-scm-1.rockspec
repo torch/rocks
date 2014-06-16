@@ -24,11 +24,12 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
+      ['thmap.node'] = './node/init.lua',
    },
    install = {
       bin = {
          'thmap',
          'thnode',
-      }
+      },
    }
 }
