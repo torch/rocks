@@ -4,6 +4,7 @@ version = "scm-1"
 source = {
    url = "git://github.com/clementfarabet/schedlua",
    branch = "master",
+   dir = 'schedlua',
 }
 
 description = {
@@ -17,6 +18,8 @@ A basic scheduler.
 
 dependencies = {
    "sys >= 1.0",
+   "trepl >= 0",
+   "async >= 1.0",
    "penlight >= 1.1.0",
 }
 
