@@ -412,6 +412,13 @@ repository = {
          }
       }
    },
+   schedlua = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    sdl2 = {
       ['scm-1'] = {
          {
