@@ -17,11 +17,12 @@ Async framework for Torch, based on LibUV.
 
 dependencies = {
    "torch >= 7.1.alpha",
+   "lua-cjson >= 0.1"
 }
 
 build = {
    type = "command",
-   build_command = "$(MAKE)",
+   build_command = "$(MAKE) LUA_BINDIR=$(LUA_BINDIR)  LUA_LIBDIR=$(LUA_LIBDIR)  LUA_INCDIR=$(LUA_INCDIR)",
    install_command = [[
 cp -r async $(LUADIR)/
 cp luv.so lhttp_parser.so $(LIBDIR)/
