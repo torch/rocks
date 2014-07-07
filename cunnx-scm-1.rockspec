@@ -6,8 +6,8 @@ source = {
 }
 
 description = {
-   summary = "Torch CUDA Experimental Neural Network Implementation",
-   detailed = [[]],
+   summary = "Torch CUDA Experimental Neural Network Modules",
+   detailed = [[The CUDA analog of nnx. Also contains some CUDA-only modules.]],
    homepage = "https://github.com/nicholas-leonard/cunnx",
    license = "BSD"
 }
