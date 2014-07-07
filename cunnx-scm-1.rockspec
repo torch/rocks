@@ -7,8 +7,7 @@ source = {
 
 description = {
    summary = "Torch CUDA Experimental Neural Network Implementation",
-   detailed = [[
-   ]],
+   detailed = [[]],
    homepage = "https://github.com/nicholas-leonard/cunnx",
    license = "BSD"
 }
