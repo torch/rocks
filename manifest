@@ -271,6 +271,13 @@ repository = {
          }
       }
    },
+   ['ns-redis'] = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    optim = {
       ['1.0.3-0'] = {
          {
