@@ -126,6 +126,13 @@ repository = {
          }
       }
    },
+   dp = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    eex = {
       ['1.0-0'] = {
          {
