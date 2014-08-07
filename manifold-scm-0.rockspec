@@ -16,6 +16,8 @@ A package to manipulate manifolds.
 
 dependencies = {
    "torch >= 7.0",
+   "unsup",
+   "mnist",
 }
 
 build = {
@@ -24,11 +26,12 @@ build = {
        ['manifold.init'] = 'init.lua',
        ['manifold.tsne'] = 'tsne.lua',
        ['manifold.lle'] = 'lle.lua',
+       ['manifold.laplacian_eigenmaps'] = 'laplacian_eigenmaps.lua',
    },
    install = {
        bin = {
-           'tSNE_maci',
-           'tSNE_linux',
+           'bhtsne_maci',
+           'bhtsne_linux',
        }
    }
 }

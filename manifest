@@ -51,6 +51,11 @@ repository = {
          {
             arch = "rockspec"
          }
+      },
+      ['1.1-0'] = {
+         {
+            arch = "rockspec"
+         }
       }
    },
    cephes = {
@@ -285,6 +290,13 @@ repository = {
          }
       }
    },
+   mnist = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ncurses = {
       ['scm-0'] = {
          {
@@ -308,6 +320,13 @@ repository = {
    },
    nnx = {
       ['0.1-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
+   ['ns-redis'] = {
+      ['scm-0'] = {
          {
             arch = "rockspec"
          }
@@ -337,6 +356,11 @@ repository = {
    },
    parallel = {
       ['1.0-0'] = {
+         {
+            arch = "rockspec"
+         }
+      },
+      ['1.1-0'] = {
          {
             arch = "rockspec"
          }
