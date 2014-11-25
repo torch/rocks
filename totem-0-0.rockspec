@@ -17,6 +17,7 @@ dependencies = { 'torch >= 7.0', 'sys', 'penlight', 'nn', 'nngraph'}
 build = {
 	type = 'builtin',
 	modules = {
+		['totem.asserts'] = 'totem/asserts.lua',
 		['totem.init'] = 'totem/init.lua',
 		['totem.nn'] = 'totem/nn.lua',
 		['totem.Tester'] = 'totem/Tester.lua',
