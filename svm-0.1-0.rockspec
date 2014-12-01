@@ -2,7 +2,7 @@ package = "svm"
 version = "0.1-0"
 
 source = {
-   url = "git@github.com:koraykv/torch-svm.git",
+   url = "git://github.com/koraykv/torch-svm.git",
    tag = "master"
 }
 
