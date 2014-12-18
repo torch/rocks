@@ -2,18 +2,17 @@ package = 'totem'
 version = '0-0'
 
 source = {
-	url = 'git://github.com/akfidjeland/torch-totem.git',
+	url = 'git://github.com/deepmind/torch-totem.git',
 	branch = 'master'
 }
 
-
 description = {
 	summary = 'Torch test module',
-	homepage = 'https://github.com/akfidjeland/torch-totem',
+	homepage = 'https://github.com/deepmind/torch-totem',
 	license = 'BSD'
 }
 
-dependencies = { 'torch >= 7.0', 'sys', 'penlight', 'nn', 'nngraph'}
+dependencies = {'torch >= 7.0', 'sys', 'penlight', 'nn', 'nngraph'}
 build = {
 	type = 'builtin',
 	modules = {
