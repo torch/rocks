@@ -1,4 +1,4 @@
-#!/usr/bin/env luajit
+#!/usr/bin/env torch
 
 require('pl.text').format_operator()
 
