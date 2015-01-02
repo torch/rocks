@@ -332,6 +332,13 @@ repository = {
          }
       }
    },
+   metriclearning = {
+      ['scm-0'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    mnist = {
       ['scm-1'] = {
          {
