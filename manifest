@@ -283,6 +283,13 @@ repository = {
          }
       }
    },
+   itorch = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    json = {
       ['1.0-0'] = {
          {
