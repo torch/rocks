@@ -586,6 +586,13 @@ repository = {
          }
       }
    },
+   tds = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    thmap = {
       ['scm-1'] = {
          {
