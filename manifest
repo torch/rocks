@@ -497,6 +497,13 @@ repository = {
          }
       }
    },
+   rational = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    ['redis-async'] = {
       ['scm-0'] = {
          {
