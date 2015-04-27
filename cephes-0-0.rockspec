@@ -14,7 +14,7 @@ description = {
   maintainer = "Julien Cornebise <julien@cornebise.com>"
 }
 
-dependencies = {'torch >= 7.0', 'torchffi'}
+dependencies = {'torch >= 7.0'}
 build = {
    type = "command",
    build_command = [[
