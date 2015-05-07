@@ -11,7 +11,7 @@ description = {
     homepage = "https://github.com/akfidjeland/lua-fn.git"
 }
 
-dependencies = { 'torch >= 7.0'}
+dependencies = { 'torch >= 7.0', 'util', 'totem'}
 build = {
     type = 'builtin',
     modules = {
