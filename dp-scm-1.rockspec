@@ -21,11 +21,13 @@ dependencies = {
    "optim >= 1.0.5",
    "moses >= 1.3.1",
    "nnx >= 0.1",
+   "dpnn >= 1.0",
    "fs >= 0.3",
    "xlua >= 1.0",
    "image >= 1.0",
    "luafilesystem >= 1.6.2",
-   "sys >= 1.1"
+   "sys >= 1.1",
+   "torchx >= 1.0"
 }
 
 
