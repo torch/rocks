@@ -2,7 +2,7 @@ package = "cltorch"
 version = "scm-1"
 
 source = {
-   url = "git://github.com/hughperkins/cltorch.git",
+   url = ''
 }
 
 description = {
@@ -20,7 +20,7 @@ dependencies = {
 build = {
    type = "command",
    build_command = [[
-cmake -E make_directory build && cd build && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_PREFIX_PATH="$(LUA_BINDIR)/.." -DCMAKE_INSTALL_PREFIX="$(PREFIX)" && $(MAKE) -j$(getconf _NPROCESSORS_ONLN) install
+git clone --recursive git://github.com/hughperkins/cltorch.git && cd cltorch && cmake -E make_directory build && cd build && cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_PREFIX_PATH="$(LUA_BINDIR)/.." -DCMAKE_INSTALL_PREFIX="$(PREFIX)" && $(MAKE) -j$(getconf _NPROCESSORS_ONLN) install
 ]],
-   install_command = "cd build"
+   install_command = "cd cltorch/build"
 }
