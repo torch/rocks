@@ -11,7 +11,7 @@ description = {
    A signal processing toolbox for Torch-7
    ]],
    homepage = "https://github.com/soumith/torch-signal",
-   license = "GPLV3"
+   license = "BSD"
 }
 
 dependencies = {
