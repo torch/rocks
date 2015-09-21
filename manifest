@@ -409,6 +409,13 @@ repository = {
          }
       }
    },
+   nnfunc = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    nngraph = {
       ['scm-1'] = {
          {
