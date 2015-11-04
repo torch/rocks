@@ -29,7 +29,24 @@ build = {
       ['readline'] = {
          sources = {'readline.c'},
          libraries = {'readline'}
+      },
+      ['treplutils'] = {
+         sources = {'utils.c'},
       }
+   },
+   platforms = {
+      windows = {
+	     modules = {
+		    ['readline'] = {
+               sources = {'readline.c'},
+               libraries = {'readline'},
+			   defines = {"USE_READLINE_STATIC"},
+               incdirs = {"windows"},
+               libdirs = {"windows"},
+               libraries = {'readline-win'}
+			}
+		 }
+	  }
    },
    install = {
       bin = {
