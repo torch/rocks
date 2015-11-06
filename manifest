@@ -27,6 +27,13 @@ repository = {
          }
       }
    },
+   autograd = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    buffer = {
       ['scm-0'] = {
          {
