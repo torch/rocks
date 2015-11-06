@@ -1,5 +1,5 @@
 package = 'hdf5'
-version = '0-0'
+version = '20-0'
 
 source = {
    url = 'git://github.com/deepmind/torch-hdf5.git',
