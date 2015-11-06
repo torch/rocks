@@ -3,7 +3,6 @@ version = "scm-1"
 
 source = {
    url = "git://github.com/twitter/torch-autograd.git",
-   branch = "master",
 }
 
 description = {
