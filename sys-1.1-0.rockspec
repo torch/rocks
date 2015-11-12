@@ -2,8 +2,7 @@ package = "sys"
 version = "1.1-0"
 
 source = {
-   url = "git://github.com/torch/sys",
-   tag = "1.1-0"
+   url = "git://github.com/torch/sys"
 }
 
 description = {
