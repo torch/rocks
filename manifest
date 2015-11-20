@@ -437,6 +437,13 @@ repository = {
          }
       }
    },
+   nninit = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    nnx = {
       ['0.1-1'] = {
          {
