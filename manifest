@@ -609,6 +609,13 @@ repository = {
          }
       }
    },
+   regress = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    restclient = {
       ['0.1-0'] = {
          {
