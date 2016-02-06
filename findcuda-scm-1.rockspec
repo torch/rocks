@@ -2,7 +2,7 @@ package = "findcuda"
 version = "scm-1"
 
 source = {
-   url = "git://github.com/torch/FindCUDA.git",
+   url = "git://github.com/hughperkins/FindCUDA.git",
 }
 
 description = {
