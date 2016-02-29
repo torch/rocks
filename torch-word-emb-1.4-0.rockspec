@@ -1,8 +1,8 @@
 package = "torch-word-emb"
-version = "1.3-0"
+version = "1.4-0"
 source = {
    url = "git://github.com/iamalbert/torch-word-emb",
-   tag = "v1.3-0"
+   tag = "v1.4-0"
 }
 description = {
    summary = "load word2vec or glove word vectors to torch Tensor",
