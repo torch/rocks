@@ -543,6 +543,13 @@ repository = {
          }
       }
    },
+   optnet = {
+      ['scm-1'] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    parallel = {
       ['1.0-0'] = {
          {
