@@ -374,6 +374,13 @@ repository = {
          }
       }
    },
+   iterm = {
+      ["scm-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    itorch = {
       ["scm-1"] = {
          {
