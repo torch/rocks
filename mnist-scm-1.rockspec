@@ -9,7 +9,7 @@ description = {
    summary = "Mnist dataset",
    detailed = [[
    ]],
-   homepage = "https://github.com/torch/mnist",
+   homepage = "https://github.com/andresy/mnist",
    license = "BSD"
 }
 
