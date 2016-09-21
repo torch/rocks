@@ -628,6 +628,13 @@ repository = {
          }
       }
    },
+   ["pretty-nn"] = {
+      ["scm-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    python = {
       ["scm-0"] = {
          {
