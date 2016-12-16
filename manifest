@@ -766,6 +766,13 @@ repository = {
          }
       }
    },
+   socketfile = {
+      ["scm-1"] = {
+         {
+            arch = "rockspec"
+         }
+      }
+   },
    strict = {
       ["0-0"] = {
          {
